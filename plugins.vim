@@ -6,7 +6,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim', { 'commit': 'f6c587e408dc0b45ffbabdadbb19739f8429e1eb' } "see: https://github.com/ctrlpvim/ctrlp.vim/issues/235
-Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'bronson/vim-trailing-whitespace'
@@ -15,19 +14,20 @@ Plug 'tpope/vim-eunuch'
 Plug 'rking/ag.vim'
 Plug 'benekastah/neomake'
 
-" Languages support
-Plug 'tpope/vim-haml', { 'for': 'haml' }
-Plug 'tpope/vim-cucumber', { 'for': 'cucumber' }
-Plug 'tpope/vim-markdown', { 'for': 'markdown' }
+" Ruby & Rails
+Plug 'slim-template/vim-slim'
 Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
 
-" Autocomplete (requires python 3)
-function! DoRemote(arg)
-  UpdateRemotePlugins
-endfunction
-Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+" Elixir
+Plug 'elixir-lang/vim-elixir'
+
+" Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Themes
-Plug 'morhetz/gruvbox'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'zeis/vim-kolor'
+
+" Indentation
+Plug 'Yggdroot/indentLine'
