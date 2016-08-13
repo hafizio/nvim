@@ -21,7 +21,7 @@ let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
 
-" Indent
+" Indentation
 let g:indentLine_color_term = 239
 let g:indentLine_char = '¦'
 
