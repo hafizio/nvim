@@ -1,5 +1,5 @@
-" Based on Janus defaults
 set number            " Show line numbers
+" Based on Janus defaults
 set ruler             " Show line and column number
 syntax enable         " Turn on syntax highlighting allowing local overrides
 
