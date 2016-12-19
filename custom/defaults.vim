@@ -69,3 +69,4 @@ set directory^=~/.vim/_temp//      " where to put swap files.
 ""
 set t_Co=256
 set encoding=utf-8
+set fileencoding=utf8

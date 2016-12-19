@@ -30,12 +30,20 @@ Plug 'thoughtbot/vim-rspec'
 
 " Elixir & Phoenix
 Plug 'elixir-lang/vim-elixir'
+Plug 'c-brenn/phoenix.vim'
+Plug 'tpope/vim-projectionist'
 
 " Rust
+Plug 'rust-lang/rust.vim'
 
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" Indentation
+" Indentation & Style
 Plug 'Yggdroot/indentLine'
+Plug 'tpope/vim-surround'
+
+" Syntax
+Plug 'sheerun/vim-polyglot'
+

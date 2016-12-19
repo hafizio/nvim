@@ -2,6 +2,15 @@
 "" General Mappings (Normal, Visual, Operator-pending)
 ""
 
+" Set leader
+let mapleader=","
+
+" Simple pane navigation
+map <up> <C-w><up>
+map <down> <C-w><down>
+map <left> <C-w><left>
+map <right> <C-w><right>
+
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>

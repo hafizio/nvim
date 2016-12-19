@@ -6,7 +6,3 @@ if janus#is_plugin_enabled("ctrlp")
     \ }
 endif
 
-if has("gui_macvim") && has("gui_running")
-  call janus#add_mapping('ctrlp', 'map', '<D-t>', ':CtrlP<CR>')
-  call janus#add_mapping('ctrlp', 'imap', '<D-t>', '<ESC>:CtrlP<CR>')
-endif

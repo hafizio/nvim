@@ -1,4 +1,9 @@
 if janus#is_plugin_enabled("nerdtree")
+
+  map <silent> <C-n> :NERDTreeFocus<CR>
+  let NERDTreeShowHidden=1
+
+  " open tree on startup
   autocmd VimEnter * NERDTree
 
   " close vim if NERDtree is the last buffer
