@@ -35,10 +35,15 @@ set clipboard=unnamed
 
 " Other customizations put in any of the below:
 " ~/.config/nvim/custom
-" ~/.config/nvim/custom/plugins
-
-for plugin in split(glob('./custom/plugins/*.vim'), '\n')
-  exe 'source' plugin
-endfor
-
 exe 'source ' . s:path . '/custom/strip-whitespaces.vim'
+
+" ~/.config/nvim/custom/plugins
+exe 'source ' . s:path . '/custom/plugins/ag.vim'
+exe 'source ' . s:path . '/custom/plugins/airline.vim'
+exe 'source ' . s:path . '/custom/plugins/ctrlp.vim'
+exe 'source ' . s:path . '/custom/plugins/fugitive.vim'
+exe 'source ' . s:path . '/custom/plugins/neomake.vim'
+exe 'source ' . s:path . '/custom/plugins/neomake.vim'
+exe 'source ' . s:path . '/custom/plugins/nerdtree.vim'
+exe 'source ' . s:path . '/custom/plugins/rspec.vim'
+exe 'source ' . s:path . '/custom/plugins/syntastic.vim'
