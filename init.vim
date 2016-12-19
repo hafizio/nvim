@@ -22,6 +22,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 " Airline
 set laststatus=2
+let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
@@ -38,8 +39,10 @@ let g:loaded_netrw        = 1
 let g:loaded_netrwPlugin  = 1
 
 " Theme
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set background=dark
-colorscheme molokai
+colorscheme onedark
+let g:rehash256 = 1
 
 " Autocomplete
 let g:deoplete#enable_at_startup = 1
@@ -50,12 +53,6 @@ let NERDTreeShowHidden=1
 
 " SudoEdit should ask password on terminal only
 let g:sudo_no_gui=1
-
-" Theme activation
-"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-colorscheme molokai
-set background=dark
-let g:rehash256 = 1
 
 " System clipboard integration
 set clipboard=unnamed
