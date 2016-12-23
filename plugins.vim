@@ -18,7 +18,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-eunuch'
-Plug 'benekastah/neomake'
 
 " Comments
 Plug 'ddollar/nerdcommenter'
