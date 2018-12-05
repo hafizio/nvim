@@ -46,3 +46,6 @@ Plug 'tpope/vim-surround'
 " Syntax
 Plug 'sheerun/vim-polyglot'
 
+" Formatting
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
